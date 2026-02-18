@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Animation class */
+button.clicked {
+  transform: scale(1.2);
+  background-color: #ff5722;
+}
