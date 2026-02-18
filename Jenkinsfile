@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        sh 'git pull origin master'
+                        sh 'git pull origin main'
                         echo "Code pulled successfully"
                     } catch (Exception e) {
                         error("Git pull failed: ${e.getMessage()}")
